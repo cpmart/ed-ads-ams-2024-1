@@ -10,8 +10,8 @@ int main(){
     scanf("%f",&temperatura);
     if(temperatura<20)
         printf("Frio\n");
-    else if(temperatura>=20 && temperatura<=30)
-        printf("Agradável\n");
-    else
+    else if(temperatura>30)
         printf("Jales\n");
+    else
+        printf("Agradável\n");
 }
