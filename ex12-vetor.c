@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&vetor3[i]);
     }*/
     for(int i=0; i<N; i++){
-        vetor4[i]=rand()%11+20;
+        vetor4[i]=rand()%11;
         printf("vetor4[%d]: %d\n",i,vetor4[i]);
     }
 }
