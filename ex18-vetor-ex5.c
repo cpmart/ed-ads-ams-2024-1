@@ -8,11 +8,9 @@ int main(){
     srand(time(NULL));
     for(int i=0; i<N; i++){
         vetA[i]=rand()%51;
+        vetB[N-1-i]=vetA[i];
+        printf("A[%d]:%2d - B[%d]:%2d\n",i,vetA[i],N-1-i,vetB[N-1-i]);
     }
-    for(int i=0; i<N; i++){
-        vetB[i]=vetA[N-1-i];
-        printf("A[%d]:%d - B[%d]:%d\n",N-1-i,vetA[N-1-i],i,vetB[i]);
-    }        
 }
 
 
